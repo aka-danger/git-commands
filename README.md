@@ -36,3 +36,6 @@ Useful git commands for those weird situations
 ## Remove all untracked files and directories. 
 ### (`-f` is `force`, `-d` is `remove directories`)
 - `git clean -fd`
+
+## Discard unstaged files
+- `git checkout -- *`
